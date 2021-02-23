@@ -1,0 +1,692 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------------
+RESET CSS
+-----------------*/
+
+
+/*==============Media=============*/
+
+@media only screen and (max-width:1187px) {
+    .container {
+        width: 1004px;
+    }
+
+    .frmhdng {
+        font-size: 22px;
+    }
+
+    .bnr-car {
+        top: 230px;
+        width: 700px;
+    }
+
+    .fund-txt {
+        font-size: 16px;
+    }
+
+    .feature-logo {
+        width: 700px;
+    }
+
+    .s1-img1 {
+        width: 500px;
+        top: 30px;
+    }
+
+    .comnHdng {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .s2-left {
+        padding: 35px 0;
+    }
+
+    .s3-col-stp {
+        padding: 0 30px;
+    }
+
+    .s3-col-stp:after,
+    .s3-col-stp:before {
+        width: 110px;
+    }
+
+    .s4-rght {
+        padding: 30px 0;
+    }
+
+    .s5-testi {
+        padding: 50px 90px;
+    }
+
+
+}
+
+@media only screen and (max-width:1021px) {
+    .container {
+        width: 750px;
+    }
+
+    .forDesk {
+        display: none;
+    }
+
+    .forTab {
+        display: block;
+    }
+
+
+    .bnr-left {
+        width: 50%;
+        padding: 110px 0 110px;
+    }
+
+    .bnr-hdng {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    .bnr-txt1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .bnr-strip {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .bnr-rght {
+        width: 45%;
+        margin-top: 40px;
+    }
+
+    .form-box {
+        min-height: 440px;
+    }
+
+    .frmhdng {
+        font-size: 20px;
+    }
+
+    .inr-frm-bx {
+        padding: 5px 10px 20px;
+    }
+
+    .vehicleOptn {
+        margin: 20px 7px 0;
+    }
+
+    .fund-txt {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .bnr-car {
+        width: 540px;
+        right: -30px;
+    }
+
+    .bnr-btm-strp-inr h2 {
+        padding-right: 30px;
+        margin-right: 25px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .feature-logo {
+        width: 530px;
+    }
+
+    .sectionOne {
+        padding: 60px 0;
+    }
+
+    .comnHdng {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .comnPara {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    ul.s1-list {
+        width: 56%;
+        margin-top: 0;
+    }
+
+    ul.s1-list li {
+        margin-top: 30px;
+    }
+
+    ul.s1-list li span {
+        font-size: 22px;
+    }
+
+    ul.s1-list li p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .s1-img1 {
+        width: 340px;
+    }
+
+    .s2-left {
+        width: 60%;
+        padding: 20px 0;
+    }
+
+    ul.s2-list {
+        right: 0;
+        width: 280px;
+    }
+
+    ul.s2-list li {
+        padding: 20px 15px 18px 85px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    ul.s2-list li img {
+        margin-top: -22px;
+        width: 50px;
+    }
+
+    ul.s2-list li span {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .s3-col-stp {
+        padding: 0 20px;
+    }
+
+    .s3-stp-txt2 {
+        font-size: 22px;
+    }
+
+    .s3-stp-txt3 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .s3-col-stp:after,
+    .s3-col-stp:before {
+        width: 70px;
+    }
+
+    .sectionFour {
+        background-size: cover;
+    }
+
+    .s4-rght {
+        padding: 20px 0;
+        width: 55%;
+    }
+
+    .s5-testi {
+        padding: 40px 20px;
+    }
+
+    .t-abt,
+    .t-name {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .s5-testiBox {
+        padding: 40px 65px 40px;
+    }
+
+
+    /*=============quiz-sec===============*/
+    .pdng1 {
+        padding: 60px 15px 140px;
+    }
+
+    .pdng3 {
+        padding: 20px 20px 50px;
+    }
+
+    .optBtn input[type=radio]+span {
+        padding: 0 30px 0 60px;
+    }
+
+    .quiz-col {
+        margin: 25px 3% 0;
+    }
+
+    .quiz-hdng h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        max-width: 600px;
+        padding: 0 10px;
+    }
+
+    .forMob {
+        display: block;
+    }
+
+    .hide-mob {
+        display: none;
+    }
+
+    .top-fix-bar {
+        margin-bottom: 50px;
+    }
+
+    .header {
+        height: 50px;
+        margin-top: -50px;
+        top: 50px;
+    }
+
+    .logo {
+        margin-top: 10px;
+        width: 115px;
+    }
+
+    a.header-btn {
+        width: 120px;
+        font-size: 14px;
+        height: 35px;
+        line-height: 34px;
+        margin-top: 6px;
+    }
+
+    .banner {
+        padding: 20px 0 0;
+    }
+
+    .bnr-hdng {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .bnr-car {
+        display: none;
+    }
+
+    .bnr-txt1 {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .bnr-rght {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .form-box {
+        float: none;
+        display: inline-block;
+        max-width: 360px;
+    }
+
+    .frmhdng {
+        font-size: 22px;
+    }
+
+    .vehicleOptn {
+        margin: 20px 15px 0;
+    }
+
+    .bnr-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bnr-strip {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .feature-logo {
+        display: none;
+    }
+
+    .bnr-btm-strp-inr h2 {
+        width: 100%;
+        margin: 0 0 10px;
+        ;
+        padding: 0;
+        border: none;
+        font-size: 24px;
+    }
+
+    .feature-logo-mob {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .sectionOne {
+        padding: 30px 0;
+    }
+
+    .comnHdng {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .comnPara {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .s1-img1 {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    ul.s1-list {
+        width: 100%;
+    }
+
+    ul.s1-list li {
+        padding: 0 0;
+        text-align: center;
+    }
+
+    ul.s1-list li img {
+        position: static;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    ul.s1-list li p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+
+    .sectionTwo {
+        padding: 30px 0;
+    }
+
+    .s2-left {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    ul.s2-list {
+        position: static;
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    ul.s2-list li {
+        width: 32%;
+        margin: 0 2% 0 0;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        padding: 10px 10px;
+        min-height: 130px;
+    }
+
+    ul.s2-list li:last-child {
+        margin-right: 0;
+    }
+
+    ul.s2-list li img {
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+
+    ul.s2-list li span {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .btn-box {
+        margin-top: 30px;
+        width: 330px;
+    }
+
+    .btn-txt {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    .sectionThree {
+        padding: 30px 0;
+    }
+
+    .s3-list {
+        margin: 10px 0 0;
+    }
+
+    .s3-col-stp {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .s3-car-ico,
+    .s3-col-stp:after,
+    .s3-col-stp:before {
+        display: none;
+    }
+
+    .s3-stp-txt3 {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+    .s3-stp-txt1 {
+        font-size: 18px;
+        line-height: 35px;
+        height: 35px;
+    }
+
+    .s3-stp-txt2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .sectionFour {
+        padding: 30px 0;
+        background: #f1f2f6;
+    }
+
+    .s4-rght {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .s4-img-mob {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .s4-rght .btn-box {
+        margin-top: -60px;
+    }
+
+    .sectionFive {
+        padding: 30px 0 20px;
+    }
+
+    .s5-testi {
+        padding: 20px 10px;
+    }
+
+    .s5-testiBox {
+        padding: 30px 15px 30px;
+    }
+
+    .t-abt,
+    .t-name {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .t-img {
+        width: 80px;
+    }
+
+    .ntwk-txt {
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 40px;
+    }
+
+    .ntwk-logo {
+        display: none;
+    }
+
+    .ntwk-logo-mob {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .ftr-txt1 {
+        line-height: 20px;
+        margin: 5px 0;
+        font-size: 13px;
+    }
+
+
+    /*=============quiz-sec===============*/
+
+    .quiz-sec {
+        padding: 15px 0 30px;
+        background: url(../images/quiz-bg-mob.jpg) no-repeat center top;
+    }
+
+    .quiz-logo {
+        width: 115px;
+    }
+
+    .quiz-box {
+        margin-top: 25px;
+        min-height: auto;
+    }
+
+    .quiz-hdng {
+        padding: 20px 10px 0;
+    }
+
+    .quiz-hdng h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .quiz-optnBx {
+        padding: 20px 15px 30px;
+        min-height: 370px;
+    }
+
+    .quiz-col {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .optBtn,
+    .quiz-co2 .optBtn {
+        height: 60px;
+    }
+
+    .optBtn input[type=radio]+span,
+    .quiz-co2 .optBtn input[type=radio]+span {
+        line-height: 60px;
+        font-size: 18px;
+    }
+
+    .warnty-txt1,
+    .warnty-txt2 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .secure-logo {
+        max-width: 80%;
+        width: 300px;
+        margin: 20px auto 0;
+    }
+
+    .field-dob {
+        height: 60px;
+    }
+
+    .input-fld {
+        line-height: 60px;
+        font-size: 18px;
+    }
+
+    .dtls-fild {
+        padding: 0;
+    }
+
+    .field-dob.hlf, .form-field.hlf {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    a.continue-btn,
+    button.continue-btn2 {
+        margin-top: 25px;
+    }
+
+    .term-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .thnk-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    ul.thnx-box {
+        padding: 5px 15px 15px;
+        margin-top: 20px;
+    }
+
+    ul.thnx-box li {
+        width: 100%;
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+        padding-left: 40px;
+    }
+
+    ul.thnx-box li img {
+        width: 26px;
+    }
+
+    a.continue-btn,
+    button.continue-btn {
+        font-size: 20px;
+    }
+
+}
